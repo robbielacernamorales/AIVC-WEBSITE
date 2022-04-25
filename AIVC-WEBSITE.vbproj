@@ -134,6 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Default.css" />
     <Content Include="AIVCStyleSheet.css" />
     <Content Include="Release.aspx" />
     <Content Include="Contact.aspx" />
@@ -200,6 +201,10 @@
       <DependentUpon>About.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Class1.vb" />
+    <Compile Include="FutureBuildSchedules.vb" />
+    <Compile Include="DailyBuildSchedules.vb" />
+    <Compile Include="Library.vb" />
     <Compile Include="Release.aspx.designer.vb">
       <DependentUpon>Release.aspx</DependentUpon>
     </Compile>

@@ -1,18 +1,7 @@
-﻿body {
-    background-color: white;
-}
-
-h1 {
-    color: white;
-}
-
-p {
-    color: black;
-}
-
-table {
-/*    border: 1px solid #ccc;
-    border-collapse: collapse;*/
+﻿table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 100%
 }
 
 tbody,
@@ -32,8 +21,6 @@ tr:nth-child(even) {
 }
 /* Create three equal columns that floats next to each other */
 .column {
-    float: left;
-    width: 33.33%;
     padding: 20px;
 }
 
@@ -57,8 +44,8 @@ td.row {
     width: 100%;
 }
 
-#MainContent_wehavebuild > .column {
-    width: 100%
+.container {
+    width: 1700px;
 }
 
 

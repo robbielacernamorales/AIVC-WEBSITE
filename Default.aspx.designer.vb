@@ -12,4 +12,58 @@ Option Explicit On
 
 
 Partial Public Class _Default
+
+    '''<summary>
+    '''wehavebuild control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents wehavebuild As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''GridView1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents GridView1 As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''wedonthavebuild control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents wedonthavebuild As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''wehavefuturebuilds control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents wehavefuturebuilds As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''GridViewFutureBuilds control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents GridViewFutureBuilds As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''wedonthavefuturebuilds control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents wedonthavefuturebuilds As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 End Class

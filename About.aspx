@@ -2,6 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %>.</h2>
-    <p>Your app description page.</p>
-    <p>Use this area to provide additional information.</p>
+    <p>Current Feature:</p>
+    <p>04/13/2022: All Official Releases SOP1, SOP2 and SOP3</p>
+    <p>04/20/2022: Display Schedule Builds of the day</p>
 </asp:Content>

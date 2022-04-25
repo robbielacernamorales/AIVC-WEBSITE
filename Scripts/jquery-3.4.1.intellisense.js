@@ -257,7 +257,11 @@ intellisense.annotate(jQuery, {
     /// </signature>
     /// <signature>
     ///   <summary>Translate all items in an array or object to new array of items.</summary>
-    ///   <param name="arrayOrObject" type="">The Array or Object to translate.</param>
+    ///   <param name="arrayO
+
+
+
+ject" type="">The Array or Object to translate.</param>
     ///   <param name="callback( value, indexOrKey )" type="Function">The function to process each item against.  The first argument to the function is the value; the second argument is the index or key of the array or object property. The function can return any value to add to the array. A returned array will be flattened into the resulting array. Within the function, this refers to the global (window) object.</param>
     ///   <returns type="Array" />
     /// </signature>

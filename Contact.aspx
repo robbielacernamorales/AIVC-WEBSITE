@@ -1,18 +1,16 @@
 ﻿<%@ Page Title="Contact" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.vb" Inherits="AIVC_WEBSITE.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2><%: Title %></h2>
-    <p>Your contact page.</p>
+    <h2>Integration Team</h2>
 
     <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
-        <abbr title="Phone">P:</abbr>
-        425.555.0100
+        80 Boon Keng Road 6th Floor - Annex (New) Building
     </address>
 
     <address>
-        <strong>Support:</strong><a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong><a href="mailto:Marketing@example.com">Marketing@example.com</a>
+        <p>Do you need any support for Integration? Contact us!</p>
+        <p><strong>Robbie:</strong><a href="mailto:robbie.lacerna.morales@continental-corporation.com">robbie.lacerna.morales@continental-corporation.com</a></p>
+        <p><strong>Sreeraj:</strong><a href="mailto:sreeraj.2.edakkulathil.chellappan@continental-corporation.com">sreeraj.2.edakkulathil.chellappan@continental-corporation.com</a></p>
     </address>
+
 </asp:Content>
