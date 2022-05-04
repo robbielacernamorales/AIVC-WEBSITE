@@ -11,6 +11,8 @@ Public Class _Default
     Dim _gridview As GridView
     Dim _dataset As DataSet
     Dim _library As New Library
+    Dim _futureBuildSchedule As FutureBuildSchedules
+
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 
         Dim _dailyBuildSchedule As New DailyBuildSchedules
@@ -25,7 +27,7 @@ Public Class _Default
         End If
 
 
-        Dim _futurebuildSchedule As New FutureBuildSchedules
+        _futureBuildSchedule = New FutureBuildSchedules
         'If there is a future schedules
         If _futurebuildSchedule.FutureBuildSchedule Then
             wehavefuturebuilds.Visible = True
@@ -38,7 +40,7 @@ Public Class _Default
 
         _gridview = GridView1
         Me.LoadBuildScheduleToday()
-
+        Me.LoadWeeklyBuildSchedule()
     End Sub
 
     Private Sub LoadBuildScheduleToday()
@@ -49,5 +51,14 @@ Public Class _Default
             .DataBind()
         End With
 
+    End Sub
+
+    Private Sub LoadWeeklyBuildSchedule()
+        _dataset = _futureBuildSchedule.GetFutureBuildSchedules
+
+        With _GridViewFutureBuilds
+            .DataSource = _dataset.Tables("FutureBuildSchedule").DefaultView
+            .DataBind()
+        End With
     End Sub
 End Class

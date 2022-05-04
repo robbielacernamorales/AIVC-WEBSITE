@@ -6,7 +6,7 @@ Public Class FutureBuildSchedules
     Dim _sqlCon As String = ConfigurationManager.ConnectionStrings("sqlConnection").ConnectionString
     Dim _cn As New SqlConnection(_sqlCon)
     Dim _baselineColumns As String = "ProjectName as 'SOP', BaselineName as 'Baseline Name', CONVERT(VARCHAR(20), BuildDate, 100) as 'Scheduled Build Date / Time', BranchName as 'Branch', ReleaseName as 'SW Release', VuCPlatform as 'VUC Platform (TVIP)', SoCPlatform as 'SOC Platform (OTP)'"
-    Dim _viewTable As String = "VDbsBaselineFutureBuilds"
+    Dim _viewTable As String = "VDbsBaselineFutureBuildsInAWeek"
     Dim _cmd As String = "SELECT " + _baselineColumns + " FROM " + _viewTable
 
     Public Sub New()

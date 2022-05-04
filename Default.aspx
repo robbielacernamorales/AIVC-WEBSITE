@@ -9,16 +9,16 @@
     </div>
     <div class="DailyBuildSchedules" id="wedonthavebuild" runat="server">
         <h2>Build Schedule</h2>
-        <p style="color: red; font-size: medium;">No Build Today</p>
+        <p style="color: red; font-size: xx-large;">No Build Today</p>
     </div>
 
     <div class="FutureBuildSchedules" id="wehavefuturebuilds" runat="server">
-        <h2>Future Schedule</h2>
+        <h2>Future Schedule (Week)</h2>
         <asp:GridView ID="GridViewFutureBuilds" runat="server"></asp:GridView>
     </div>
     <div class="FutureBuildSchedules" id="wedonthavefuturebuilds" runat="server">
         <h2>Future Schedule</h2>
-        <p style="color: red; font-size: medium;">No Future Build Schedule(s)</p>
+        <p style="color: red; font-size: xx-large;">No Future Build Schedule(s)</p>
     </div>
 
    <%-- <div class="row">
